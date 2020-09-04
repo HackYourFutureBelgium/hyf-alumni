@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <div>
-      Hello world
-    </div>
-  );
+import "@fortawesome/fontawesome-free/css/all.min.css"
+import 'mdbreact/dist/css/mdb.css'
+import "bootstrap-css-only/css/bootstrap.min.css"
+import './App.css'
+import Router from './routers/Routers'
+const App = () => {
+    return (
+        <Router />
+      );
 }
-
+ 
 export default App;

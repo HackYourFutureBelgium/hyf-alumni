@@ -1,0 +1,9 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    color: #222;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+  }
